@@ -140,13 +140,21 @@ ul.skills {
   text-align: center;
 }
 
-.clients,
+.client,
 .desc {
   display: inline-block;
 }
 
-.clients {
+.client {
   font-weight: bold;
+}
+
+.client a {
+  color: black;
+}
+
+.client a:hover {
+  color: maroon;
 }
 
 .desc {
